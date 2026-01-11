@@ -9,7 +9,7 @@ return {
 						     "cssls"
 						   },
 		automatic_enable = true,
-		automatic_installation = true
+		automatic_install = true
 	},
     dependencies = {
         { "mason-org/mason.nvim" },
