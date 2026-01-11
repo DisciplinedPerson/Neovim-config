@@ -6,7 +6,7 @@ return {
 						     "ts_ls",
 						     "tailwindcss",
 						     "html",
-						     "cssls"
+						     "cssls",
 						   },
 		automatic_enable = true,
 		automatic_install = true
