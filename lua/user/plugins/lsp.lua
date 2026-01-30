@@ -22,21 +22,17 @@ return {
 		}
 	},
 	"neovim/nvim-lspconfig",
-	config = function()
+	vim.schedule(function()
 		vim.diagnostic.config({
 			signs = {
 				text = {
-					[vim.diagnostic.severity.ERROR] = '', -- Example Nerd Font icon
-					[vim.diagnostic.severity.WARN] = '',
-					[vim.diagnostic.severity.INFO] = '',
-					[vim.diagnostic.severity.HINT] =  '󰌵',
+					[vim.diagnostic.severity.ERROR] = '',
+					[vim.diagnostic.severity.WARN]  = '',
+					[vim.diagnostic.severity.HINT]  = '󰌵',
+					[vim.diagnostic.severity.INFO]  = '',
 				},
-				-- Or use default: ['E', 'W', 'I', 'H']
 			},
-			-- Other options like virtual_text, underline, etc.
-			virtual_text = true, -- Show virtual text too
-			underline = true,
 		})
-	end
+	end)
 },
 }

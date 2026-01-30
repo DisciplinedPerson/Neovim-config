@@ -8,6 +8,8 @@ return {
 				"python",
 				"javascript",
 				"typescript",
+				"tsx",
+				"astro",
 				"c",
 				"lua",
 				"help",
